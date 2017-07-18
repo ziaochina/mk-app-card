@@ -6,7 +6,7 @@ export function getMeta() {
 		children:[{
 			name: 'header',
 			component:'Layout',
-			className:'header',
+			className:'mk-app-card-header',
 			children:[{
 				name:'left',
 				component:'Layout',
@@ -14,16 +14,16 @@ export function getMeta() {
 			},{
 				name:'right',
 				component:'Layout',
-				className:'header-right'
+				className:'mk-app-card-header-right'
 			}]
 		},{
 			name:'content',
 			component:'Layout',
-			className:'content',
+			className:'mk-app-card-content',
 			children:[{
 				name:'form',
 				component:'Form',
-				className:'content-form',
+				className:'mk-app-card-content-form',
 				children:[{
 					name:'nameItem',
 					component:'Form.Item',
