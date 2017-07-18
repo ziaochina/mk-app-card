@@ -1,0 +1,46 @@
+{
+  "_from": "mk-app-card",
+  "_id": "mk-app-card@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mitoHXxmnlKWnJ9XE9uLNkSDP8mP8l07RspWHC9VuihO+XHrT3jUQp0Rx1LZwLCS6oE5v8xRQUdugT0ohq5eYw==",
+  "_location": "/mk-app-card",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mk-app-card",
+    "name": "mk-app-card",
+    "escapedName": "mk-app-card",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mk-app-card/-/mk-app-card-1.0.0.tgz",
+  "_shasum": "b91bb26fcc3fb2db3d43920015a62623eb81e881",
+  "_spec": "mk-app-card",
+  "_where": "/home/zlj/my/github/self/mk-app-card/master/example",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ziaochina/mk-app-card/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "mk-app-card",
+  "homepage": "https://github.com/ziaochina/mk-app-card#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mk-app-card",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziaochina/mk-app-card.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
