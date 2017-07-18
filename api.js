@@ -111,7 +111,8 @@ export function getMeta() {
 						name:'reset',
 						component:'Button',
 						style:{width:100},
-						children:'重置'
+						children:'重置',
+						onClick:'{{$reset}}'
 					}]
 				}]
 			}]

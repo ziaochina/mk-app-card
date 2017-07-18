@@ -1,4 +1,4 @@
-import { Map, List } from 'immutable'
+import { Map, List, fromJS } from 'immutable'
 import { reducer as MetaReducer } from 'mk-meta-engine'
 import config from './config'
 import moment from 'moment'
@@ -12,12 +12,27 @@ class reducer {
         const data = {
             data: {
                 form: {
-                    sex: "0",
-                    birthday: moment('1981-1-1')
+                    name:'',
+                    sex: '0',
+                    birthday: moment('1981-1-1'),
+                    mobile:'',
+                    address:''
                 }
             }
         }
         return this.metaReducer.init(state, data)
+    }
+
+    reset = (state) => {
+        return this.metaReducer.sf(state, 'data', fromJS({
+            form: {
+                name:'',
+                sex: '0',
+                birthday: moment('1981-1-1'),
+                mobile:'',
+                address:''
+            }
+        }))
     }
 
     setField = (state, fieldPath, value) => {
@@ -28,13 +43,13 @@ class reducer {
     setCheckFields = (state, fields) => {
         if (!fields) return state
         var checkFields = this.metaReducer.gf(state, 'data.other.checkFields') || List()
-        
-        if (typeof fields == 'string'){
+
+        if (typeof fields == 'string') {
             checkFields = checkFields.includes(fields) ? checkFields : checkFields.push(fields)
             return this.metaReducer.sf(state, 'data.other.checkFields', checkFields)
         }
-        if(fields instanceof Array){
-            fields.forEach(field=>{
+        if (fields instanceof Array) {
+            fields.forEach(field => {
                 checkFields = checkFields.includes(field) ? checkFields : checkFields.push(field)
             })
 
