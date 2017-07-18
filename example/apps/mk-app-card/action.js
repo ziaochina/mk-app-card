@@ -23,10 +23,14 @@ class action {
                 'data.form.mobile',
                 'data.form.birthday'
             ])
-        }else{
+        } else {
             console.log(this.metaAction.gf('data.form').toJS())
             this.metaAction.toast('success', '请看控制台')
         }
+    }
+
+    reset = () => {
+        this.injections.reduce('reset')
     }
 
     checkName = (force) => {

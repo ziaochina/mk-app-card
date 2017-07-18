@@ -1,8 +1,8 @@
 {
   "_from": "mk-app-card",
-  "_id": "mk-app-card@1.0.0",
+  "_id": "mk-app-card@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-mitoHXxmnlKWnJ9XE9uLNkSDP8mP8l07RspWHC9VuihO+XHrT3jUQp0Rx1LZwLCS6oE5v8xRQUdugT0ohq5eYw==",
+  "_integrity": "sha512-19c4Jm/OXib67VtyteC1B5L20dhVwcmx0RMBjKoZqLvQJkflBR/bURezoIEjDDL8V5hHTDFzjZEXmkyILjGuKQ==",
   "_location": "/mk-app-card",
   "_phantomChildren": {},
   "_requested": {
@@ -19,8 +19,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/mk-app-card/-/mk-app-card-1.0.0.tgz",
-  "_shasum": "b91bb26fcc3fb2db3d43920015a62623eb81e881",
+  "_resolved": "https://registry.npmjs.org/mk-app-card/-/mk-app-card-1.0.2.tgz",
+  "_shasum": "94204d14a8d35ab38548018fe0e9fa4697d0bde1",
   "_spec": "mk-app-card",
   "_where": "/home/zlj/my/github/self/mk-app-card/master/example",
   "author": "",
@@ -42,5 +42,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "version": "1.0.2"
 }
